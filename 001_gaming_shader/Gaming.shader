@@ -22,7 +22,7 @@ float3 color(float level)
 float3 smoothColor(float x)
 {
     float level1 =  floor(x * 6.0);
-    float level2 = min(6.0, floor(x*6.0) + 1.0);
+    float level2 = min(6.0, floor(x * 6.0) + 1.0);
     float3 a = color(level1);
     float3 b = color(level2);
     return lerp(a, b, frac(x * 6.0));
@@ -37,6 +37,7 @@ float4 paint(float2 uv)
 }
 
 ENDCG
+
     SubShader
     {
         Pass
