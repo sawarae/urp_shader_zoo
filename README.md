@@ -1,6 +1,6 @@
 # urp_shader_zoo
 
-URPで使えるシェーダーの格納場所です。
+UnityのURPで使えるシェーダーの格納場所です。
 
 ## 001_gaming_shader
 ゲーミングLEDのように光るシェーダーです。
